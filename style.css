@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background-color: #1f2937;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+.username {
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
